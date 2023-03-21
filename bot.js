@@ -26,7 +26,7 @@
 
 function FRBot() {
 
-	this.runDuration = 2.5;  //Set to stop after this amount of time (in hours)
+	this.runDuration = .5;  //Set to stop after this amount of time (in hours)
 	this.maxRice = -1;       //Set to a positive number to stop once that much rice has been collected
 	this.riceDonated = 0;    //Assuming 10 per correct answer
 	this.started = 0;        //Date/time the bot started
